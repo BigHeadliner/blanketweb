@@ -1,0 +1,26 @@
+ html,
+ body {
+     height: 100%;
+ }
+  
+  body { 
+    @extend %russoone-400;
+    font-size: 18px;
+    line-height: 25px; 
+    color: #000;
+} 
+    
+ 
+   .container {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    border: 1px solid transparent;   
+}   
+ 
+.container-big {
+    max-width: 1565px;
+    margin: 0 auto;
+    padding: 0; 
+    border: 1px solid transparent;   
+}  
